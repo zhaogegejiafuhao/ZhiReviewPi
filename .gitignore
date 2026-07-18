@@ -1,0 +1,32 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+dist/
+build/
+node_modules/
+*.log
+data/question_bank.json
+.trae/
+
+# 测试缓存
+.pytest_cache/
+.mypy_cache/
+
+# PDF 产物（文档用 Markdown 源码管理，PDF 由各人自行导出）
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 文档（含个人简历等非项目文档）
+docs/
+
+# 前端构建产物
+frontend/dist/
